@@ -1,8 +1,9 @@
-.user-component,
+.user_component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
 }
+
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -17,4 +18,16 @@
   color: rgba(0, 0, 0, 0.5);
   margin-top: 10px;
   font-size: 17px;
+}
+.user-component__avatar__xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 40%;
+  margin-right: 20px;
+}
+.user-component__avatar__sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  margin-right: 20px;
 }
