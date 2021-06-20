@@ -10,6 +10,10 @@
   font-size: 32px;
   font-weight: 600;
 }
+.screen-header__icon {
+  display: flex;
+  justify-content: space-between;
+}
 
 .screen-header__icon .fa-music {
   margin: 0px 30px;
