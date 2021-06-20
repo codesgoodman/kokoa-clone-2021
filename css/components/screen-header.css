@@ -10,9 +10,13 @@
   font-size: 32px;
   font-weight: 600;
 }
+
 .screen-header__icon .fa-music {
   margin: 0px 30px;
 }
 .screen-header__icon .fa-comment-dots {
   margin-left: 30px;
+}
+.screen-header__icon .magnify {
+  margin-right: 30px;
 }
