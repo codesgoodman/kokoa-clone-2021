@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats-kokoatalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Vodafone KR</span>
+        <!--To Do: WIFI icon-->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>06:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <!--TO DO: Battery icon-->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <!--TO DO: Lightening icon-->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icon">
+        <span><i class="fas fa-search fa-lg"></i></span
+        ><span><i class="far fa-comment-dots fa-lg"></i></span><span><i class="fas fa-music fa-lg"></i></span
+        ><span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="user_component">
+        <div class="user-component__column">
+          <img
+            src="data:image/png;base64,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"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h3 class="user-component__title">Apple Korea</h3>
+            <h6 class="user-component__subtitle">Your product is on your way!</h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      
+      
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">77</span>
+            <i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__update"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
