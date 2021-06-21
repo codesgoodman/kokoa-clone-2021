@@ -115,7 +115,7 @@
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -153,14 +153,15 @@
   opacity: 0;
   visibility: hidden;
 }
-.reply:focus-within input {
-  width: 98vw;
-  transform: translateX(-12%) translateY(-80px);
-}
+
 .reply .reply__column:first-child,
 .reply .fa-smile-wink,
 .reply button {
   transition: opacity, 3s ease-in-out;
+}
+.reply:focus-within input {
+  width: 98vw;
+  transform: translateX(-12%) translateY(-80px);
 }
 .reply:focus-within {
   transform: translateY(80px);
