@@ -27,3 +27,14 @@
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 30px;
 }
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+}
